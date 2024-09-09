@@ -1,0 +1,232 @@
+
+
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+
+
+.container {
+  max-width: 124rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  padding: 2rem 0;
+}
+
+#tranding {
+  padding: 4rem 0;
+}
+
+@media (max-width:1440px) {
+  #tranding {
+    padding: 7rem 0;
+  }
+}
+
+#tranding .tranding-slider {
+  height: 52rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+@media (max-width:500px) {
+  #tranding .tranding-slider {
+    height: 45rem;
+  }
+}
+
+.tranding-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+  background: rgba(169, 169, 171, 0.2);
+  border: 2px solid rgba(108, 108, 108, 0.5);
+  backdrop-filter: blur(30px);
+  /* background-color: var(--secondary-color); */
+  border-radius: 2rem;
+}
+
+@media (max-width:500px) {
+  .tranding-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .tranding-slide .tranding-slide-img img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+.tranding-slide .tranding-slide-img img {
+  width: 100px;
+  height: 100px;
+  margin: 60px 80px;
+  position: relative;
+  top: 2rem;
+  right: -9.5rem;
+}
+
+.servicesbtn{
+  position: relative;
+  bottom: -21rem;
+}
+
+.tranding-slide .tranding-slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.tranding-slide-content .food-price {
+  position: absolute;
+  top: 2rem;
+  bottom: 20rem;  
+
+  color: var(--secondary-color);
+
+}
+
+.tranding-slide-content .tranding-slide-content-bottom {
+  text-align: start;
+  position: absolute;
+  bottom: -10rem;
+  color: var(--secondary-color);
+}
+
+ .tranding-slide-content h1{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: var(--plus-jakarta-sans);
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+
+.tranding-slide-content .tranding-slide-content-bottom p{
+  padding: 0 20px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.food-rating {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.rating ion-icon {
+  color: var(--secondary-color);
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.tranding-slider-control {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tranding-slider-control .swiper-button-next {
+  left: 60% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width:990px) {
+  .tranding-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width:450px) {
+  .tranding-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width:990px) {
+  .tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width:450px) {
+  .tranding-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.tranding-slider-control .slider-arrow {
+  background: var(--secondary-color);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 40%;
+  transform: translateX(-40%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 15rem;
+  bottom: -0.5rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--secondary-color);
+}

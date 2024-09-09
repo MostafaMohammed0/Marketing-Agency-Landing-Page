@@ -1,0 +1,50 @@
+.about-us__content {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--plus-jakarta-sans);
+  justify-content: center;
+  align-items: center;
+  background: var( #fff);
+}
+
+
+.about-us__content h3 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+}
+
+
+.about-us__content p {
+  align-self: center;
+  width: 70%;
+  font-size: 18px;  
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: var(--secondary-color);
+  text-align: center;
+} 
+
+.about-us__content h2 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--playfair-display);
+  color: var(--secondary-color);
+}
+
+.about-us__image {
+  margin: auto;
+  width: 900px;
+  height: 650px;
+}
+
+.about-us__button{
+  text-align: center;
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  top: 0;
+}
